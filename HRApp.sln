@@ -7,7 +7,7 @@ Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "HRApp", "HRApp\HRApp.sqlpro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRApp_WPF", "HRApp_WPF\HRApp_WPF.csproj", "{B3A80009-1AD1-4289-9EDE-043FA14728A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRApp_wpf.Tests", "HRApp_wpf.Tests\HRApp_wpf.Tests.csproj", "{70A4CC79-1E8B-4F0D-AED7-8381C18A7E0A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRApp_WPF.Tests", "HRApp_wpf.Tests\HRApp_WPF.Tests.csproj", "{70A4CC79-1E8B-4F0D-AED7-8381C18A7E0A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -7,7 +7,7 @@
     [Phone]           NVARCHAR (15)  NOT NULL,
     [Email]           NVARCHAR (255) NOT NULL,
     [RegistationDate] NVARCHAR (255) NOT NULL,
-    [IsFired]         BINARY (1)     NOT NULL,
+    [IsFired]         BIT     NOT NULL,
     [LocationIID]     INT            NOT NULL,
     CONSTRAINT [PK_EMPLOYES] PRIMARY KEY CLUSTERED ([ID] ASC),
     CONSTRAINT [Employes_fk0] FOREIGN KEY ([LocationIID]) REFERENCES [dbo].[Locations] ([ID]),
