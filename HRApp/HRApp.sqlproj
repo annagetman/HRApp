@@ -82,6 +82,17 @@
     <Build Include="dbo\Tables\Directions.sql" />
     <Build Include="dbo\Tables\Departments_Projects.sql" />
     <Build Include="dbo\Tables\Employes_Projects.sql" />
+    <Build Include="dbo\Stored Procedures\crud_PositionsCreate.sql" />
+    <Build Include="dbo\Stored Procedures\crud_PositionsRead.sql" />
+    <Build Include="dbo\Stored Procedures\crud_PositionsUpdate.sql" />
+    <Build Include="dbo\Stored Procedures\crud_PositionsDelete.sql" />
+    <Build Include="dbo\Stored Procedures\crud_LocationsCreate.sql" />
+    <Build Include="dbo\Stored Procedures\crud_LocationsDelete.sql" />
+    <Build Include="dbo\Stored Procedures\crud_LocationsRead.sql" />
+    <Build Include="dbo\Stored Procedures\crud_LocationsUpdate.sql" />
+    <Build Include="dbo\Stored Procedures\crud_Companies_LocationsCreate.sql" />
+    <Build Include="dbo\Stored Procedures\crud_Companies_LocationsDelete.sql" />
+    <Build Include="dbo\Stored Procedures\crud_Companies_LocationsRead.sql" />
     <Build Include="dbo\Tables\Departments_Positions.sql" />
     <Build Include="dbo\Stored Procedures\crud_ProjectsCreate.sql" />
     <Build Include="dbo\Stored Procedures\crud_ProjectsRead.sql" />

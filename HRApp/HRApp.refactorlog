@@ -15,3 +15,13 @@
     <Property Name="NewName" Value="LocationID" />
   </Operation>
 </Operations>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="09041ddb-f011-41d8-acac-39faf6e66383" ChangeDateTime="05/21/2021 17:20:47">
+    <Property Name="ElementName" Value="[dbo].[Locations].[Index]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Locations]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PostIndex" />
+  </Operation>
+</Operations>
