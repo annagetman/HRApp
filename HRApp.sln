@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "HRApp", "HRApp\HRApp.sqlproj", "{1D9E1EF3-4993-424F-A75B-ED081C7E58A8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRApp_WPF", "HRApp_WPF\HRApp_WPF.csproj", "{B3A80009-1AD1-4289-9EDE-043FA14728A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRApp_wpf.Tests", "HRApp_wpf.Tests\HRApp_wpf.Tests.csproj", "{70A4CC79-1E8B-4F0D-AED7-8381C18A7E0A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +21,14 @@ Global
 		{1D9E1EF3-4993-424F-A75B-ED081C7E58A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D9E1EF3-4993-424F-A75B-ED081C7E58A8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1D9E1EF3-4993-424F-A75B-ED081C7E58A8}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B3A80009-1AD1-4289-9EDE-043FA14728A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3A80009-1AD1-4289-9EDE-043FA14728A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3A80009-1AD1-4289-9EDE-043FA14728A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3A80009-1AD1-4289-9EDE-043FA14728A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70A4CC79-1E8B-4F0D-AED7-8381C18A7E0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70A4CC79-1E8B-4F0D-AED7-8381C18A7E0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70A4CC79-1E8B-4F0D-AED7-8381C18A7E0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70A4CC79-1E8B-4F0D-AED7-8381C18A7E0A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
