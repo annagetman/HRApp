@@ -3,6 +3,6 @@
 AS 
 BEGIN 
 DELETE
-FROM   Projects
+FROM [dbo].[Projects]
 WHERE  ID = @ID
 END

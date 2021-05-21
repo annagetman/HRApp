@@ -1,6 +1,8 @@
 ﻿CREATE PROCEDURE [dbo].[crud_ProjectsRead]
-	@param1 int = 0,
-	@param2 int
-AS
-	SELECT @param1, @param2
-RETURN 0
+    @ID int
+AS 
+BEGIN 
+    SELECT ID, Title, Description, DirectionID 
+    FROM [dbo].[Projects]  
+    WHERE  (ID = @ID) 
+END

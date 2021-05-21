@@ -4,7 +4,7 @@
     @DirectionID int
 AS
 BEGIN
-INSERT INTO Projects  (
+INSERT INTO [dbo].[Projects]  (
     Title,
     Description,
 	DirectionID)
@@ -18,6 +18,6 @@ SELECT
     Title = @Title,
     Description = @Description,
     DirectionID=@DirectionID
-FROM Positions 
+FROM [dbo].[Projects]
 WHERE  ID = @ID
 END

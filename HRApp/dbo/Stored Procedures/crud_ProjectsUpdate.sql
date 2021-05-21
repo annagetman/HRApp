@@ -1,6 +1,13 @@
 ﻿CREATE PROCEDURE [dbo].[crud_ProjectsUpdate]
-	@param1 int = 0,
-	@param2 int
-AS
-	SELECT @param1, @param2
-RETURN 0
+    @ID int,
+    @Title nvarchar(255),
+    @Description nvarchar(255),
+    @DirectionID int
+AS 
+BEGIN 
+UPDATE [dbo].[Projects]
+SET  Title = @Title,
+     Description = @Description,
+     DirectionID=@DirectionID
+WHERE  ID = @ID
+END
