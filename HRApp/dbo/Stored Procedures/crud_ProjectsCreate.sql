@@ -3,7 +3,6 @@
     @Description nvarchar(255),
     @DirectionID int
 AS
-BEGIN
 INSERT INTO [dbo].[Projects]  (
     Title,
     Description,
@@ -12,12 +11,3 @@ INSERT INTO [dbo].[Projects]  (
     @Title,
     @Description,
     @DirectionID)
- DECLARE @ID INT;
-SET @ID = SCOPE_IDENTITY()
-SELECT 
-    Title = @Title,
-    Description = @Description,
-    DirectionID=@DirectionID
-FROM [dbo].[Projects]
-WHERE  ID = @ID
-END

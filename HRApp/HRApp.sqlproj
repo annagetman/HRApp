@@ -103,7 +103,4 @@
     <Build Include="dbo\Stored Procedures\crud_DirectionsUpdate.sql" />
     <Build Include="dbo\Stored Procedures\crud_DirectionsDelete.sql" />
   </ItemGroup>
-  <ItemGroup>
-    <RefactorLog Include="HRApp.refactorlog" />
-  </ItemGroup>
 </Project>

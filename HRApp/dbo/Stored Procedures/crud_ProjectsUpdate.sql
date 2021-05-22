@@ -3,11 +3,9 @@
     @Title nvarchar(255),
     @Description nvarchar(255),
     @DirectionID int
-AS 
-BEGIN 
+AS
 UPDATE [dbo].[Projects]
 SET  Title = @Title,
      Description = @Description,
      DirectionID=@DirectionID
 WHERE  ID = @ID
-END

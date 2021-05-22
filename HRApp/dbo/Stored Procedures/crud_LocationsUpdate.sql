@@ -7,8 +7,6 @@
 	@HouseNumber int,
 	@ApartmentNumber int
 AS
-
-BEGIN
 UPDATE [dbo].[Locations]
 SET  [dbo].[Locations].PostIndex = @PostIndex,
 	 [dbo].[Locations].Country = @Country,
@@ -17,4 +15,3 @@ SET  [dbo].[Locations].PostIndex = @PostIndex,
 	 [dbo].[Locations].HouseNumber = @HouseNumber,
 	 [dbo].[Locations].ApartmentNumber = @ApartmentNumber
 WHERE  [dbo].[Locations].ID = @ID
-END
