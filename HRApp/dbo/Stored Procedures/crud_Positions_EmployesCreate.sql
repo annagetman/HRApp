@@ -6,10 +6,6 @@
 	@IsWorking binary
 AS
 
-BEGIN
-DECLARE @ID INT;
-SET @ID = SCOPE_IDENTITY()
-
 INSERT INTO [dbo].[Positions_Employes]  (
 	   [dbo].[Positions_Employes].EmployeeID,
 	   [dbo].[Positions_Employes].PositionID,
@@ -24,13 +20,3 @@ INSERT INTO [dbo].[Positions_Employes]  (
 	   @FiredDate,
 	   @IsWorking
 	   )
-
-SELECT 
-	   EmployeeID = @EmployeeID,
-	   PositionID = @PositionID,
-	   HiredDate = @HiredDate,
-	   FiredDate = @FiredDate,
-	   IsWorking = @IsWorking
-FROM [dbo].[Positions_Employes] 
-WHERE  ID = @ID
-END

@@ -7,7 +7,6 @@
 @IsWorking int
 
 AS 
-BEGIN 
 UPDATE [dbo].[Positions_Employes]
 SET  [dbo].[Positions_Employes].EmployeeID = @EmployeeID,
      [dbo].[Positions_Employes].PositionID = @PositionID,
@@ -15,4 +14,3 @@ SET  [dbo].[Positions_Employes].EmployeeID = @EmployeeID,
      [dbo].[Positions_Employes].FiredDate = @FiredDate,
      [dbo].[Positions_Employes].IsWorking = @IsWorking
 WHERE  [dbo].[Positions_Employes].ID = @ID
-END

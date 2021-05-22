@@ -5,10 +5,6 @@
 	@Positions_EmployesID int
 AS
 
-BEGIN
-DECLARE @ID INT;
-SET @ID = SCOPE_IDENTITY()
-
 INSERT INTO [dbo].[Comments]  (
 	   [dbo].[Comments].EmployeeID,
 	   [dbo].[Comments].Information,
@@ -21,12 +17,3 @@ INSERT INTO [dbo].[Comments]  (
 	   @Date,
 	   @Positions_EmployesID
 	   )
-
-SELECT 
-	   EmployeeID = @EmployeeID,
-	   Information = @Information,
-	   Date = @Date,
-	   Positions_EmployesID = @Positions_EmployesID
-FROM [dbo].[Comments] 
-WHERE  ID = @ID
-END

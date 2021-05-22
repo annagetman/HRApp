@@ -3,10 +3,6 @@
 	@Information nvarchar(255)
 AS
 
-BEGIN
-DECLARE @ID INT;
-SET @ID = SCOPE_IDENTITY()
-
 INSERT INTO [dbo].[GeneralInformation]  (
 	   [dbo].[GeneralInformation].EmployeeID,
 	   [dbo].[GeneralInformation].Information
@@ -15,10 +11,3 @@ INSERT INTO [dbo].[GeneralInformation]  (
 	   @EmployeeID,
 	   @Information
 	   )
-
-SELECT 
-	   EmployeeID = @EmployeeID,
-	   Information = @Information
-FROM [dbo].[GeneralInformation] 
-WHERE  ID = @ID
-END
