@@ -60,6 +60,7 @@
     <Folder Include="Properties" />
     <Folder Include="dbo\" />
     <Folder Include="dbo\Tables\" />
+    <Folder Include="dbo\Stored Procedures" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\Employes.sql" />
@@ -82,5 +83,17 @@
     <Build Include="dbo\Tables\Departments_Projects.sql" />
     <Build Include="dbo\Tables\Employes_Projects.sql" />
     <Build Include="dbo\Tables\Departments_Position.sql" />
+    <Build Include="dbo\Stored Procedures\crud_CommentsCreate.sql" />
+    <Build Include="dbo\Stored Procedures\crud_Positions_EmployesCreate.sql" />
+    <Build Include="dbo\Stored Procedures\crud_GeneralInformationsRead.sql" />
+    <Build Include="dbo\Stored Procedures\crud_CommentsRead.sql" />
+    <Build Include="dbo\Stored Procedures\crud_GeneralInformationsCreate.sql" />
+    <Build Include="dbo\Stored Procedures\crud_Positions_EmployesRead.sql" />
+    <Build Include="dbo\Stored Procedures\crud_GeneralInformationsUpdate.sql" />
+    <Build Include="dbo\Stored Procedures\crud_CommentsUpdate.sql" />
+    <Build Include="dbo\Stored Procedures\crud_Positions_EmployesUpdate.sql" />
+    <Build Include="dbo\Stored Procedures\crud_GeneralInformationsDelete.sql" />
+    <Build Include="dbo\Stored Procedures\crud_CommentsDelete.sql" />
+    <Build Include="dbo\Stored Procedures\crud_Positions_EmployesDelete.sql" />
   </ItemGroup>
 </Project>
