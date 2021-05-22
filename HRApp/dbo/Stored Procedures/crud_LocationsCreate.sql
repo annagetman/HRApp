@@ -6,11 +6,6 @@
 	   @HouseNumber int,
 	   @ApartmentNumber int
 AS
-
-BEGIN
-DECLARE @ID INT;
-SET @ID = SCOPE_IDENTITY()
-
 INSERT INTO [dbo].[Locations]  (
 	   [dbo].[Locations].PostIndex,
 	   [dbo].[Locations].Country,
@@ -27,15 +22,4 @@ INSERT INTO [dbo].[Locations]  (
 	   @HouseNumber,
 	   @ApartmentNumber
 	   )
-
-SELECT 
-	   PostIndex = @PostIndex,
-	   Country = @Country,
-	   City = @City,
-	   Street = @Street,
-	   HouseNumber = @HouseNumber,
-	   ApartmentNumber = @ApartmentNumber
-FROM [dbo].[Locations] 
-WHERE  ID = @ID
-END
 
