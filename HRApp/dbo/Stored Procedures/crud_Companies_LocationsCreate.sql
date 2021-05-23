@@ -3,10 +3,7 @@
     @LocationID int
 
 AS
-INSERT INTO [dbo].[Companies_Locations]  (
-	   CompanyID,
-	   LocationID
-	   )
+INSERT INTO [dbo].[Companies_Locations]
     VALUES (
 	   @CompanyID,
 	   @LocationID
