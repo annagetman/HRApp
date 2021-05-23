@@ -127,6 +127,15 @@
     <Build Include="dbo\Stored Procedures\crud_DirectionsRead.sql" />
     <Build Include="dbo\Stored Procedures\crud_DirectionsUpdate.sql" />
     <Build Include="dbo\Stored Procedures\crud_DirectionsDelete.sql" />
+    <Build Include="dbo\Stored Procedures\crud_Projects_RequirementsCreate.sql" />
+    <Build Include="dbo\Stored Procedures\crud_Projects_RequirementsDelete.sql" />
+    <Build Include="dbo\Stored Procedures\crud_Projects_RequirementsRead.sql" />
+    <Build Include="dbo\Stored Procedures\crud_Projects_RequirementsUpdate.sql" />
+    <Build Include="dbo\Stored Procedures\crud_RequirementsCreate.sql" />
+    <Build Include="dbo\Stored Procedures\crud_RequirementsRead.sql" />
+    <Build Include="dbo\Stored Procedures\crud_RequirementsDelete.sql" />
+    <Build Include="dbo\Stored Procedures\crud_RequirementsUpdate.sql" />
+    <Build Include="dbo\Stored Procedures\crud_Departments_ProjectsCreate.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="HRApp.refactorlog" />
