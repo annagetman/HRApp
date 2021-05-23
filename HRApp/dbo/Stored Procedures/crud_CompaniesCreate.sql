@@ -18,7 +18,7 @@ INSERT INTO [dbo].[Companies]  (
  DECLARE @ID INT;
 SET @ID = SCOPE_IDENTITY()
 SELECT 
-   Title = @Title,
+    Title = @Title,
     LocationID = @LocationID,
     Description = @Description,
     IsWorking = @IsWorking

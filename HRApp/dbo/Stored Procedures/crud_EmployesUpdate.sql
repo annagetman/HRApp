@@ -1,4 +1,4 @@
-﻿CREATE PROCEDURE [dbo].[crud_ProjectsUpdate]
+﻿CREATE PROCEDURE [dbo].[crud_EmployesUpdate]
     @ID int,
     @Photo image,
     @FirstName nvarchar(255),
