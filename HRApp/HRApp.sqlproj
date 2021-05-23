@@ -83,6 +83,18 @@
     <Build Include="dbo\Tables\Departments_Projects.sql" />
     <Build Include="dbo\Tables\Employes_Projects.sql" />
     <Build Include="dbo\Tables\Departments_Position.sql" />
+    <Build Include="dbo\Stored Procedures\crud_EmployesCreate.sql" />
+    <Build Include="dbo\Stored Procedures\crud_EmployesDelete.sql" />
+    <Build Include="dbo\Stored Procedures\crud_EmployesRead.sql" />
+    <Build Include="dbo\Stored Procedures\crud_EmployesUpdate.sql" />
+    <Build Include="dbo\Stored Procedures\crud_CompaniesCreate.sql" />
+    <Build Include="dbo\Stored Procedures\crud_CompaniesDelete.sql" />
+    <Build Include="dbo\Stored Procedures\crud_CompaniesRead.sql" />
+    <Build Include="dbo\Stored Procedures\crud_CompaniesUpdate.sql" />
+    <Build Include="dbo\Stored Procedures\crud_Departments_PositionCreate.sql" />
+    <Build Include="dbo\Stored Procedures\crud_Departments_PositionDelete.sql" />
+    <Build Include="dbo\Stored Procedures\crud_Departments_PositionRead.sql" />
+    <Build Include="dbo\Stored Procedures\crud_Departments_PositionUpdate.sql" />
     <Build Include="dbo\Stored Procedures\crud_CommentsCreate.sql" />
     <Build Include="dbo\Stored Procedures\crud_Positions_EmployesCreate.sql" />
     <Build Include="dbo\Stored Procedures\crud_GeneralInformationsRead.sql" />
@@ -115,5 +127,8 @@
     <Build Include="dbo\Stored Procedures\crud_DirectionsRead.sql" />
     <Build Include="dbo\Stored Procedures\crud_DirectionsUpdate.sql" />
     <Build Include="dbo\Stored Procedures\crud_DirectionsDelete.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="HRApp.refactorlog" />
   </ItemGroup>
 </Project>
