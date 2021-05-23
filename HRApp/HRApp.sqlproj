@@ -142,6 +142,14 @@
     <Build Include="dbo\Stored Procedures\crud_Departments_ProjectsDelete.sql" />
     <Build Include="dbo\Stored Procedures\crud_Departments_ProjectsRead.sql" />
     <Build Include="dbo\Stored Procedures\crud_Departments_ProjectsUpdate.sql" />
+    <Build Include="dbo\Stored Procedures\crud_Companies_DepatmentsCreate.sql" />
+    <Build Include="dbo\Stored Procedures\crud_Companies_DepatmentsDelete.sql" />
+    <Build Include="dbo\Stored Procedures\crud_Companies_DepatmentsRead.sql" />
+    <Build Include="dbo\Stored Procedures\crud_Companies_DepatmentsUpdate.sql" />
+    <Build Include="dbo\Stored Procedures\crud_DepartmentsCreate.sql" />
+    <Build Include="dbo\Stored Procedures\crud_DepartmentsRead.sql" />
+    <Build Include="dbo\Stored Procedures\crud_DepartmentsUpdate.sql" />
+    <Build Include="dbo\Stored Procedures\crud_DepartmentsDelete.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="HRApp.refactorlog" />
