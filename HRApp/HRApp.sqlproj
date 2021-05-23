@@ -118,7 +118,6 @@
     <Build Include="dbo\Stored Procedures\crud_Companies_LocationsCreate.sql" />
     <Build Include="dbo\Stored Procedures\crud_Companies_LocationsDelete.sql" />
     <Build Include="dbo\Stored Procedures\crud_Companies_LocationsRead.sql" />
-    <Build Include="dbo\Tables\Departments_Positions.sql" />
     <Build Include="dbo\Stored Procedures\crud_ProjectsCreate.sql" />
     <Build Include="dbo\Stored Procedures\crud_ProjectsRead.sql" />
     <Build Include="dbo\Stored Procedures\crud_ProjectsDelete.sql" />
@@ -136,6 +135,13 @@
     <Build Include="dbo\Stored Procedures\crud_RequirementsDelete.sql" />
     <Build Include="dbo\Stored Procedures\crud_RequirementsUpdate.sql" />
     <Build Include="dbo\Stored Procedures\crud_Departments_ProjectsCreate.sql" />
+    <Build Include="dbo\Stored Procedures\crud_SkillsCreate.sql" />
+    <Build Include="dbo\Stored Procedures\crud_SkillsDelete.sql" />
+    <Build Include="dbo\Stored Procedures\crud_SkillsRead.sql" />
+    <Build Include="dbo\Stored Procedures\crud_SkillsUpdate.sql" />
+    <Build Include="dbo\Stored Procedures\crud_Departments_ProjectsDelete.sql" />
+    <Build Include="dbo\Stored Procedures\crud_Departments_ProjectsRead.sql" />
+    <Build Include="dbo\Stored Procedures\crud_Departments_ProjectsUpdate.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="HRApp.refactorlog" />
