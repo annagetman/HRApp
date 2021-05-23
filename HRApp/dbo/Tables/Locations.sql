@@ -1,6 +1,6 @@
 ﻿CREATE TABLE [dbo].[Locations] (
     [ID]              INT            IDENTITY (1, 1) NOT NULL,
-    [Index]           INT            NOT NULL,
+    [PostIndex]           INT            NOT NULL,
     [Country]         NVARCHAR (255) NOT NULL,
     [City]            NVARCHAR (255) NOT NULL,
     [Street]          NVARCHAR (255) NULL,

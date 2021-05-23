@@ -60,6 +60,7 @@
     <Folder Include="Properties" />
     <Folder Include="dbo\" />
     <Folder Include="dbo\Tables\" />
+    <Folder Include="dbo\Stored Procedures" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\Employes.sql" />
@@ -69,7 +70,7 @@
     <Build Include="dbo\Tables\Projects.sql" />
     <Build Include="dbo\Tables\Requirements.sql" />
     <Build Include="dbo\Tables\Projects_Requirements.sql" />
-    <Build Include="dbo\Tables\GeneralInformation.sql" />
+    <Build Include="dbo\Tables\GeneralInformations.sql" />
     <Build Include="dbo\Tables\Comments.sql" />
     <Build Include="dbo\Tables\Positions.sql" />
     <Build Include="dbo\Tables\Positions_Employes.sql" />
@@ -78,9 +79,56 @@
     <Build Include="dbo\Tables\Companies_Locations.sql" />
     <Build Include="dbo\Tables\Departments.sql" />
     <Build Include="dbo\Tables\Companies_Depatments.sql" />
-    <Build Include="dbo\Tables\Direction.sql" />
+    <Build Include="dbo\Tables\Directions.sql" />
     <Build Include="dbo\Tables\Departments_Projects.sql" />
     <Build Include="dbo\Tables\Employes_Projects.sql" />
     <Build Include="dbo\Tables\Departments_Position.sql" />
+    <Build Include="dbo\Stored Procedures\crud_EmployesCreate.sql" />
+    <Build Include="dbo\Stored Procedures\crud_EmployesDelete.sql" />
+    <Build Include="dbo\Stored Procedures\crud_EmployesRead.sql" />
+    <Build Include="dbo\Stored Procedures\crud_EmployesUpdate.sql" />
+    <Build Include="dbo\Stored Procedures\crud_CompaniesCreate.sql" />
+    <Build Include="dbo\Stored Procedures\crud_CompaniesDelete.sql" />
+    <Build Include="dbo\Stored Procedures\crud_CompaniesRead.sql" />
+    <Build Include="dbo\Stored Procedures\crud_CompaniesUpdate.sql" />
+    <Build Include="dbo\Stored Procedures\crud_Departments_PositionCreate.sql" />
+    <Build Include="dbo\Stored Procedures\crud_Departments_PositionDelete.sql" />
+    <Build Include="dbo\Stored Procedures\crud_Departments_PositionRead.sql" />
+    <Build Include="dbo\Stored Procedures\crud_Departments_PositionUpdate.sql" />
+    <Build Include="dbo\Stored Procedures\crud_CommentsCreate.sql" />
+    <Build Include="dbo\Stored Procedures\crud_Positions_EmployesCreate.sql" />
+    <Build Include="dbo\Stored Procedures\crud_GeneralInformationsRead.sql" />
+    <Build Include="dbo\Stored Procedures\crud_CommentsRead.sql" />
+    <Build Include="dbo\Stored Procedures\crud_GeneralInformationsCreate.sql" />
+    <Build Include="dbo\Stored Procedures\crud_Positions_EmployesRead.sql" />
+    <Build Include="dbo\Stored Procedures\crud_GeneralInformationsUpdate.sql" />
+    <Build Include="dbo\Stored Procedures\crud_CommentsUpdate.sql" />
+    <Build Include="dbo\Stored Procedures\crud_Positions_EmployesUpdate.sql" />
+    <Build Include="dbo\Stored Procedures\crud_GeneralInformationsDelete.sql" />
+    <Build Include="dbo\Stored Procedures\crud_CommentsDelete.sql" />
+    <Build Include="dbo\Stored Procedures\crud_Positions_EmployesDelete.sql" />
+    <Build Include="dbo\Stored Procedures\crud_PositionsCreate.sql" />
+    <Build Include="dbo\Stored Procedures\crud_PositionsRead.sql" />
+    <Build Include="dbo\Stored Procedures\crud_PositionsUpdate.sql" />
+    <Build Include="dbo\Stored Procedures\crud_PositionsDelete.sql" />
+    <Build Include="dbo\Stored Procedures\crud_LocationsCreate.sql" />
+    <Build Include="dbo\Stored Procedures\crud_LocationsDelete.sql" />
+    <Build Include="dbo\Stored Procedures\crud_LocationsRead.sql" />
+    <Build Include="dbo\Stored Procedures\crud_LocationsUpdate.sql" />
+    <Build Include="dbo\Stored Procedures\crud_Companies_LocationsCreate.sql" />
+    <Build Include="dbo\Stored Procedures\crud_Companies_LocationsDelete.sql" />
+    <Build Include="dbo\Stored Procedures\crud_Companies_LocationsRead.sql" />
+    <Build Include="dbo\Tables\Departments_Positions.sql" />
+    <Build Include="dbo\Stored Procedures\crud_ProjectsCreate.sql" />
+    <Build Include="dbo\Stored Procedures\crud_ProjectsRead.sql" />
+    <Build Include="dbo\Stored Procedures\crud_ProjectsDelete.sql" />
+    <Build Include="dbo\Stored Procedures\crud_ProjectsUpdate.sql" />
+    <Build Include="dbo\Stored Procedures\crud_DirectionsCreate.sql" />
+    <Build Include="dbo\Stored Procedures\crud_DirectionsRead.sql" />
+    <Build Include="dbo\Stored Procedures\crud_DirectionsUpdate.sql" />
+    <Build Include="dbo\Stored Procedures\crud_DirectionsDelete.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="HRApp.refactorlog" />
   </ItemGroup>
 </Project>
